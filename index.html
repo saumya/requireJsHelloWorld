@@ -9,12 +9,19 @@
 		<div id="container">
 			Hello
 		</div>
-		<!-- adding local libs rather than from CDN -->
+		<!-- adding local libs rather than from CDN 
 		<script src="assets/js/libs/jquery_1.9.0.js"></script>
 		<script src="assets/js/libs/underscore_1.4.3.js"></script>
 		<script src="assets/js/libs/backbone_0.9.10.js"></script>
-		<!-- Application entry -->
+		<!-- Application entry 
 		<script src="src/main.js"></script>
 		<!-- End JS -->
+		<!-- RequireJS -->
+		<!--
+		<script src="assets/js/libs/jquery_1.9.0.js"></script>
+		<script data-main="src/main.js" src="assets/js/libs/require_2.1.4.js"></script>
+		-->
+		<!-- RequireJS with JQuery -->
+		<script data-main="src/main.js" src="assets/js/libs/require-jquery.js"></script>
 	</body>
 </html>
