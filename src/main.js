@@ -13,6 +13,7 @@ require(["jquery"], function($) {
     });
 });
 */
-require(['modules/addModule'],function(addModule){
+require(['modules/addModule','modules/fullNameModule'],function(addModule,fullName){
 	console.log(addModule);
+	console.log(fullName('firstName','lastName'));
 });
