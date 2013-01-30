@@ -15,5 +15,5 @@ require(["jquery"], function($) {
 */
 require(['modules/addModule','modules/fullNameModule'],function(addModule,fullName){
 	console.log(addModule);
-	console.log(fullName('Bob','House'));
+	console.log(fullName);
 });

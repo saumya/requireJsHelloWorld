@@ -1,9 +1,7 @@
 define('modules/fullNameModule',
 		['modules/firstNameModule','modules/lastNameModule'],
-		function(){
-			return function(f,l){
-				return (f+' '+l);
-			};
+		function(fn,ln){
+			return (fn+' '+ln);
 		});
 /*
  * define(moduleName,[dependencies Array],function(){ return Object });
